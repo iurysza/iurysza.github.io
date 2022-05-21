@@ -204,7 +204,7 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
                     <section className="post-full-byline-meta">
                       <h4 className="author-name">
                         {post.frontmatter.author.map(author => (
-                          <Link key={author.name} to={`/author/${_.kebabCase(author.name)}/`}>
+                          <Link key={author.name} to="/about">
                             {author.name}
                           </Link>
                         ))}
