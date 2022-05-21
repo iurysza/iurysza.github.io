@@ -1,3 +1,4 @@
+[![Gatsby Publish](https://github.com/iurysza/thoughtbox/actions/workflows/gatsby-publish.yml/badge.svg)](https://github.com/iurysza/thoughtbox/actions/workflows/gatsby-publish.yml)
 # gatsby-casper
 
 Demo: https://gatsby-casper.netlify.app
