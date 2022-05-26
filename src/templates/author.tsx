@@ -45,7 +45,7 @@ interface AuthorTemplateProps {
       name: string;
       website?: string;
       twitter?: string;
-      facebook?: string;
+      linkedin?: string;
       location?: string;
       profile_image?: any;
       bio?: string;
@@ -85,8 +85,8 @@ function Author({ data, location }: AuthorTemplateProps) {
         <meta property="og:type" content="profile" />
         <meta property="og:title" content={`${author.name} - ${config.title}`} />
         <meta property="og:url" content={config.siteUrl + location.pathname} />
-        <meta property="article:publisher" content="https://www.facebook.com/ghost" />
-        <meta property="article:author" content="https://www.facebook.com/ghost" />
+        <meta property="article:publisher" content="https://www.linkedin.com/ghost" />
+        <meta property="article:author" content="https://www.linkedin.com/ghost" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={`${author.name} - ${config.title}`} />
         <meta name="twitter:url" content={config.siteUrl + location.pathname} />
@@ -160,14 +160,14 @@ function Author({ data, location }: AuthorTemplateProps) {
                         </AuthorSocialLinkAnchor>
                       </AuthorSocialLink>
                     )}
-                    {author.facebook && (
+                    {author.linkedin && (
                       <AuthorSocialLink className="author-social-link">
                         <AuthorSocialLinkAnchor
-                          href={`https://www.facebook.com/${author.facebook}`}
+                          href={`https://www.linkedin.com/${author.linkedin}`}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Facebook
+                          linkedin
                         </AuthorSocialLinkAnchor>
                       </AuthorSocialLink>
                     )}
@@ -197,7 +197,7 @@ export const pageQuery = graphql`
       website
       twitter
       bio
-      facebook
+      linkedin
       location
       profile_image {
         childImageSharp {

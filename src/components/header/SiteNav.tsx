@@ -8,7 +8,7 @@ import styled from '@emotion/styled';
 import { colors } from '../../styles/colors';
 import { SocialLink, SocialLinkFb } from '../../styles/shared';
 import config from '../../website-config';
-import { Facebook } from '../icons/facebook';
+import { Linkedin } from '../icons/linkedin';
 import { Twitter } from '../icons/twitter';
 import { SubscribeModal } from '../subscribe/SubscribeModal';
 import { SiteNavLogo } from './SiteNavLogo';
@@ -109,16 +109,16 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
           </SiteNavLeft>
           <SiteNavRight>
             <SocialLinks>
-              {config.facebook && (
+              {config.linkedin && (
                 <a
                   className="social-link-fb"
                   css={[SocialLink, SocialLinkFb]}
-                  href={config.facebook}
+                  href={config.linkedin}
                   target="_blank"
-                  title="Linkedin"
+                  title="LinkedIn"
                   rel="noopener noreferrer"
                 >
-                  <Facebook />
+                  <Linkedin />
                 </a>
               )}
               {config.twitter && (

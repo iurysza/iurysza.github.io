@@ -22,9 +22,9 @@ export function Footer() {
         </section>
         <SiteFooterNav>
           <Link to="/">Latest Posts</Link>
-          {config.facebook && (
-            <a href={config.facebook} target="_blank" rel="noopener noreferrer">
-              Linkedin
+          {config.linkedin && (
+            <a href={config.linkedin} target="_blank" rel="noopener noreferrer">
+              LinkedIn
             </a>
           )}
           {config.twitter && (
