@@ -6342,6 +6342,11 @@ gatsby-plugin-canonical-urls@4.14.0:
   dependencies:
     "@babel/runtime" "^7.15.4"
 
+gatsby-plugin-disqus@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-disqus/-/gatsby-plugin-disqus-1.2.4.tgz#81990e857ddbbee5b4a0602e1afcfc62be5330f0"
+  integrity sha512-HoNJdTKKifRIGVMTMt1rbFModWm3UT7Mnae24R0kuR0bj5b1XzJF9pgQ78BSFVP+D7Yndn51+vEr8goDLIBOGg==
+
 gatsby-plugin-emotion@7.14.0:
   version "7.14.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-7.14.0.tgz#2d8cf1372d294c02f6739f02e3fdd846dbc28014"

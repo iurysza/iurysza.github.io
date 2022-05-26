@@ -8,6 +8,7 @@ import { Helmet } from 'react-helmet';
 
 import { css } from '@emotion/react';
 import styled from '@emotion/styled';
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus';
 
 import { Footer } from '../components/Footer';
 import SiteNav, { SiteNavMain } from '../components/header/SiteNav';
@@ -110,6 +111,12 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
   // 20 AUG 2018
   const displayDatetime = format(date, 'dd LLL yyyy');
 
+  const disqusConfig = {
+    url: `${config.siteUrl + location.pathname}`,
+    identifier: post.frontmatter.title,
+    title: post.frontmatter.title,
+  };
+  console.log(disqusConfig);
   return (
     <IndexLayout className="post-template">
       <Helmet>
@@ -235,6 +242,8 @@ function PageTemplate({ data, pageContext, location }: PageTemplateProps) {
               {/* The big email subscribe modal content */}
               {config.showSubscribe && <Subscribe title={config.title} />}
             </article>
+            <CommentCount config={disqusConfig} placeholder="..." />
+            <Disqus config={disqusConfig} />
           </div>
         </main>
 

@@ -11,7 +11,6 @@ import config from '../../website-config';
 import { Linkedin } from '../icons/linkedin';
 import { Twitter } from '../icons/twitter';
 import { SubscribeModal } from '../subscribe/SubscribeModal';
-import { SiteNavLogo } from './SiteNavLogo';
 
 interface SiteNavProps {
   isHome?: boolean;
