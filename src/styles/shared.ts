@@ -154,7 +154,7 @@ export const SiteHeaderStyles = css`
 
   @media (prefers-color-scheme: dark) {
     :before {
-      background: rgba(0, 0, 0, 0.6);
+      background: ${colors.logoBg};
     }
   }
 `;
