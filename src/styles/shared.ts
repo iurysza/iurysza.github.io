@@ -137,7 +137,7 @@ export const SiteHeaderStyles = css`
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0, 0, 0, 0.18);
+    background: ${colors.logoBg};
   }
   :after {
     content: '';

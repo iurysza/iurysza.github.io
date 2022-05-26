@@ -2,7 +2,7 @@
 const path = require('path');
 
 module.exports = {
-  pathPrefix: "/thoughtbox",
+  pathPrefix: '/thoughtbox',
   siteMetadata: {
     title: 'Thoughtbox',
     description: 'An engineer thinking out loud',
@@ -109,7 +109,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Ghost\'s Blog',
+            title: 'Iury\'s Thoughtbox Blog',
             match: '^/blog/',
           },
         ],

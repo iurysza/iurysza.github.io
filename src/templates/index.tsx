@@ -91,7 +91,7 @@ function IndexPage(props: IndexProps) {
               <SiteTitle className="site-title">
                 {props.data.logo ? (
                   <img
-                    style={{ maxHeight: '55px' }}
+                    style={{ maxHeight: '200px' }}
                     src={getSrc(props.data.logo)}
                     alt={config.title}
                   />

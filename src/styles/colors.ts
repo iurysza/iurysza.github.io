@@ -4,6 +4,7 @@ export const colors = {
   purple: '#ad26b4',
   yellow: '#fecd35',
   red: '#f05230',
+  logoBg: '#67c8d1',
   darkgrey: '#15171A',
   midgrey: '#738a94',
   lightgrey: '#c5d2d9',
