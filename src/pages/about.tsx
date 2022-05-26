@@ -38,7 +38,7 @@ function About() {
   return (
     <IndexLayout>
       <Helmet>
-        <title>About</title>
+        <title>About Me</title>
       </Helmet>
       <Wrapper css={PageTemplate}>
         <header className="site-archive-header no-image" css={[SiteHeader, SiteArchiveHeader]}>
