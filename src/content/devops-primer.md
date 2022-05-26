@@ -20,7 +20,7 @@ The book I picked up was *The DevOps Handbook*, subtitled: *How to Create World-
 # So, what is DevOps?
 Quoting Wikipedia:
 > DevOps is a set of practices that combines software development and IT operations.
-> It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
+> It aims to shorten the system's development life cycle and provide continuous delivery with high software quality.
 > DevOps is complementary with Agile software development; several DevOps aspects came from Agile methodology.
 
 So, this is basically agile at a macro-level. When you take a birds-eye view of all the agile methodologies,

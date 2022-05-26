@@ -15,7 +15,7 @@ If you're not sure what that means, code obfuscation is the modification of the 
 It's makes for a great AppSec initiative and often takes care of the bare minimum security you can have when publishing a source code out in they wild.  By making the code hard to reverse engineer, you ensure that your library's intellectual property is guarded against security threats, unauthorized access, and discovery of application vulnerabilities.
 
 # Proguard
-ProGuard is the most popular optimizer for Java bytecode and it also provides obfuscation for they names of classes, fields and methods.
+ProGuard is the most popular optimizer for Java bytecode and it also provides obfuscation for the names of classes, fields and methods.
 
 ![proguard-pipeline](https://www.guardsquare.com/files/media/guardsquare2016/Website/ProGuard/ProGuard_build_process_b.png)
 
@@ -89,7 +89,7 @@ Ok, now if you want to obfuscate your code you just need to:
 Problem solved! Or maybe not.
 
 # Automating the publication pipeline
-Assuming you get the `artifactId` right, what we did until now may actually work for youu. The obfuscate task will trigger a build and then obfuscate the jar. But that not ideal. We don't want to manually run this specific task every time. To me, the obfuscation step should be just a part of our library's publication pipeline now. We shouldn't have to remember about it anymore. In order to fix this we need to take a look at this so called, publication pipeline.
+Assuming you get the `artifactId` right, what we did until now may actually work for youu. The obfuscate task will trigger a build and then obfuscate the jar. But that's not ideal. We don't want to manually run this specific task every time. To me, the obfuscation step should be just a part of our library's publication pipeline now. We shouldn't have to remember about it anymore. In order to fix this we need to take a look at this so called, publication pipeline.
 
 If you already have one, it may be just a simple `publishing` task, something like this:
 
@@ -174,4 +174,3 @@ This diagram shows our end product.
 
 ## References
 [Proguard home page](https://www.guardsquare.com/en/products/proguard)
-[Code obfuscation guide](https://www.appsealing.com/code-obfuscation-comprehensive-guide/)

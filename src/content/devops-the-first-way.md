@@ -2,7 +2,7 @@
 layout: post
 title: 'The First Way'
 author: [Iury Souza]
-tags: ['devops, automation, ci, cd']
+tags: [devops, automation, ci]
 image: img/devops-the-first-way.jpg
 date: '2020-12-17T23:46:37.121Z'
 draft: false
