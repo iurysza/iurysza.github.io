@@ -25,7 +25,7 @@ export function AuthorListItem(props: AuthorListItemProps) {
     }
 
     clearTimeout(timeout);
-    setHovered(true);
+    // setHovered(true);
   }
 
   function handleMouseLeave() {
@@ -72,7 +72,7 @@ export function AuthorListItem(props: AuthorListItemProps) {
       <Link
         css={AuthorAvatar}
         className="author-avatar"
-        to={`/author/${_.kebabCase(props.author.name)}/`}
+        to="/about"
       >
         <GatsbyImage
           image={getImage(props.author.avatar)!}
