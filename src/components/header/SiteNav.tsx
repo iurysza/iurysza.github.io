@@ -115,7 +115,7 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                   css={[SocialLink, SocialLinkFb]}
                   href={config.facebook}
                   target="_blank"
-                  title="Facebook"
+                  title="Linkedin"
                   rel="noopener noreferrer"
                 >
                   <Facebook />

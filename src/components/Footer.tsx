@@ -24,7 +24,7 @@ export function Footer() {
           <Link to="/">Latest Posts</Link>
           {config.facebook && (
             <a href={config.facebook} target="_blank" rel="noopener noreferrer">
-              Facebook
+              Linkedin
             </a>
           )}
           {config.twitter && (
