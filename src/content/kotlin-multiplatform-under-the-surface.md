@@ -7,7 +7,7 @@ image: img/kotlin-multiplatform-under-the-surface-cover.jpeg
 draft: false
 ---
 
-The mobile development community has always had many alternatives for creating cross-platform apps. Since the days of webview-based solutions we've come a long way, but we still have many alternatives. The most recent one is the Jetbrains led, Kotlin Multiplatform Mobile project.
+The mobile development community always had many alternatives for creating cross-platform apps. Since the days of webview-based solutions we've come a long way, but we still have many alternatives. The most recent one is the Jetbrains led, Kotlin Multiplatform Mobile project.
 
 If you're curious about how does it stand against the competition and what are its pros and cons, this brief overview may help you get started.
 

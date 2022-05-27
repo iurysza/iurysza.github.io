@@ -9,7 +9,7 @@ draft: false
 
 
 
-Have you ever wondered how **twitter bots** work?>
+Have you ever wondered how **Twitter bots** work?
 Can we integrate them with **Telegram**?
 Is it possible to do this **only** with **Kotlin**?
 
@@ -18,9 +18,9 @@ Fret not! Follow me while we uncover these mysteries!
 ### What we'll be creating
 
 The idea here is pretty straight forward: 
-A twitter bot that downloads videos from tweets and sends them to me on Telegram.  
+A Twitter bot that downloads videos from tweets and sends them to me on Telegram.  
 
-Whenever I reply to a post on twitter that has a video, tagging the bot's username, the bot will download the video and send it to me on telegram. 
+Whenever I reply to a post on Twitter that has a video, tagging the bot's username, the bot will download the video and send it to me on telegram. 
 Simple enough, right?  You might have even seen something similar in the wild.
 
 ![Example of a similar bot in the wild](https://i.imgur.com/ov4jueb.png "@BaixaEssaPorra is a popular downloader bot in the brazilian twittersphere")
@@ -32,7 +32,7 @@ Now that we know what we want, how can we achieve this?
 We'll have an application running locally on our machines that will somehow **listen to tweets that mention another user**.
 After being notified of this event, we will need to **fetch the video URL** from the tweet we're replying to, **download the video** and finally **send it over to a telegram user** using the a bot.
 
-After reading the [twitter developer docs](https://developer.twitter.com/en/docs) I've found they offer 3 possibilities:
+After reading the [Twitter developer docs](https://developer.twitter.com/en/docs) I've found they offer 3 possibilities:
 
 - [HTTP Polling](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-mentions_timeline)
 - [HTTP Streaming](https://developer.twitter.com/en/docs/tutorials/consuming-streaming-data#consuming-the-stream)
@@ -59,14 +59,14 @@ The only issue is that we don't have any java/kotlin library to work with the `W
 
 First of all we need to get the keys to play with these services.
 
-To get Twitter keys we'll need a to create a Twitter App, you can get yours [here](https://developer.twitter.com/en/account/get-started) 
+To get Twitter keys we'll need to create a Twitter App, you can get yours [here](https://developer.twitter.com/en/account/get-started) 
 To get `Telegram`'s token is just as simple as talking to the [BotFather](https://web.telegram.org/#/im?p=@BotFather)
 
 #### Hiding keys, tokens and secrets
 
 First, we need a mechanism to load keys, secrets, userIds and tokens used in the project. It is a good practice to keep our keys out of version control.
 
-To do that, we create a json file with all the keys and put it in the resources folder.
+To do that, we create a json file with all the keys and put it in the `resources` folder.
 
 ```json
 {
