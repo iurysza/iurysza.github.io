@@ -5,7 +5,7 @@ module.exports = {
     jest: true,
     browser: true,
   },
-  extends: ['xo-space', 'xo-react/space', 'xo-typescript'],
+  extends: ['xo-space', 'xo-react/space', 'xo-typescript', 'prettier'],
   rules: {
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
     '@typescript-eslint/indent': ['error', 2, { SwitchCase: 1 }],
@@ -16,7 +16,7 @@ module.exports = {
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
     'no-warning-comments': 'off',
-    'complexity': 'off',
+    complexity: 'off',
     'jsx-quotes': 'off',
     '@typescript-eslint/strict-boolean-expressions': 'off',
     '@typescript-eslint/no-unnecessary-condition': 'off',
