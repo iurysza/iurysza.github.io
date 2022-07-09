@@ -292,8 +292,8 @@ function IndexLayout(props: IndexProps) {
           }
 
           ::selection {
-            text-shadow: none;
-            background: ${lighten('0.3', colors.blue)};
+            text-shadow: aqua;
+            background: ${lighten('0.1', colors.blue)};
           }
 
           hr {

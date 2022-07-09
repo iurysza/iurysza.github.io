@@ -55,7 +55,7 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Thought Box',
-  description: 'Thought Box - My open box of thoughts.',
+  description: 'Thoughtbox - An open box of thoughts.',
   coverImage: 'img/blog-cover.png',
   logo: 'img/ghost-logo.png',
   lang: 'en',
