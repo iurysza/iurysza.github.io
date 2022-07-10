@@ -1,7 +1,7 @@
 ---
 title: 'Publishing an obfuscated kotlin library'
 author: [Iury Souza]
-tags: [kotlin, java, appsec, gradle]
+tags: [kotlin, automation, gradle]
 image: img/publish-an-obfuscated-kotlin-library.jpg
 date: '2020-12-27T23:46:37.121Z'
 draft: false

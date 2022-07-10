@@ -1,7 +1,7 @@
 ---
 title: 'Continuous Kotlin Static Analysis'
 author: [Iury Souza]
-tags: [kotlin, mobile, QA, devops]
+tags: [kotlin, automation, devops]
 date: '2020-12-20T23:46:37.121Z'
 image: img/kotlin-ci.jpg
 draft: false

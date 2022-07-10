@@ -1,7 +1,7 @@
 ---
 title: A Continuous Integration approach for Kotlin projects
 author: [Iury Souza]
-tags: [ci, automation, kotlin, android]
+tags: [automation, kotlin, android]
 date: '2021-01-24T23:46:37.121Z'
 image: img/ci-integration-approach.jpg
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: Kotlin Multiplatform under the surface
 author: [Iury Souza]
-tags: [kotlin, multiplatform, mobile, kmm]
+tags: [kotlin, multiplatform, kmm]
 date: '2021-08-18T08:00:00.121Z'
 image: img/kotlin-multiplatform-under-the-surface-cover.jpeg
 draft: false

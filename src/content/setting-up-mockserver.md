@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Setting up MockServer
+excerpt: Using MockServer to test in isolation.
 image: img/mock-server.jpg
 author: [Iury Souza]
 date: 2020-04-21T07:03:47.149Z
-tags: [ docker, testing ]
+tags: [ docker, automation, testing ]
 ---
 
 ## Main goals:

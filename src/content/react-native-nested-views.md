@@ -1,7 +1,7 @@
 ---
 title: 'Nesting React Components in Native UI'
 author: [Iury Souza]
-tags: [react-native, kotlin, swift]
+tags: [react-native, kotlin, swift, multiplatform]
 date: '2022-07-05T18:46:37.121Z'
 image: img/nest.jpg
 draft: false

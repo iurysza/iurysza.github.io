@@ -1,5 +1,6 @@
 ---
-title: 'Kotlin Twitter-Telegram bot'
+title: 'A Twitter-Telegram bot in Kotlin'
+excerpt: 'How to use kotlin to build a bot to send Twitter videos to you via Telegram.'
 author: [Iury Souza]
 tags: [kotlin, bot]
 date: '2020-07-09T11:53:37.121Z'

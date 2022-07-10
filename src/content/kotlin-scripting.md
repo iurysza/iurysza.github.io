@@ -2,7 +2,7 @@
 layout: post
 title: Type safe scripts
 author: [Iury Souza]
-tags: [kotlin, scripting, automation]
+tags: [kotlin, automation]
 image: img/kotlin-scripting.jpg
 date: '2020-07-26T10:00:00.000Z'
 draft: false
