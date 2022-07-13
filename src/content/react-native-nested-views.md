@@ -76,7 +76,7 @@ class YourNativeComponentManager : ViewGroupManager<YourComponentView>() {
 	  return YourComponentView(context)
 	}
 
-	override fun addView(parent: FrameLayout?, child: View?, index: Int) {
+	override fun addView(parent: YourComponentView?, child: View?, index: Int) {
   	  TODO("Add child to view hierarchy")
 	}
 
