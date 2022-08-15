@@ -6547,6 +6547,15 @@ gatsby-remark-copy-linked-files@5.14.0:
     probe-image-size "^7.2.3"
     unist-util-visit "^2.0.3"
 
+gatsby-remark-embed-video@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-embed-video/-/gatsby-remark-embed-video-3.2.1.tgz#167782a862f99c8d2f0ae988d5519466e75f9829"
+  integrity sha512-VVrcoNcLtWH4Ffqs2Qc2me9Ph+p8iXi9kMbX1OLFLY3JMtk5+lIOUGs0CutWsWKndj2W6PpfkwdFZyuknL5kjQ==
+  dependencies:
+    get-video-id "^3.6.4"
+    remark-burger "^1.0.1"
+    unist-util-visit "^2.0.3"
+
 gatsby-remark-embedder@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/gatsby-remark-embedder/-/gatsby-remark-embedder-6.0.0.tgz#11e713232c6f95e786c3be63ae2390663500a100"
@@ -6950,6 +6959,11 @@ get-symbol-description@^1.0.0:
   dependencies:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
+
+get-video-id@^3.6.4:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/get-video-id/-/get-video-id-3.6.4.tgz#86a92fd72ba9df637c568d9eb1245dbddb779c2f"
+  integrity sha512-BKaS+0wu4FW3nodJt/VcvOmPpOx7/F/qV7MPi4F3NgqVYehKJRwX+/oUA5alPEfEX9h3i/1tAGEbSpsNNbXA1Q==
 
 gifwrap@^0.9.2:
   version "0.9.4"
@@ -10587,6 +10601,11 @@ relay-runtime@12.0.0:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.0"
     invariant "^2.2.4"
+
+remark-burger@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/remark-burger/-/remark-burger-1.0.1.tgz#cda57d4bc1e952ae86b2407fbcf36492ab352106"
+  integrity sha512-F91SyEzat4hBkWsWElHIvMcCQuWoSeZXTuR4DmLvhUIjYkzzVLaX6GRxhkiDrZb/9asvTrYzwEr9HvxN1tqs9Q==
 
 remark-footnotes@^3.0.0:
   version "3.0.0"
